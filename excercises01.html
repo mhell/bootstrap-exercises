@@ -1,116 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap stuff</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" defer integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</head>
-<body>
-  <nav class="navbar navbar-expand-md b navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">A brand name </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap stuff</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      defer
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md b navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">A brand name </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-md p-3 text-bg-primary">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            fill="currentColor"
+            class="bi bi-1-circle-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312z"
+            />
+          </svg>
+        </div>
+        <div class="col-md p-3 text-bg-info">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            fill="currentColor"
+            class="bi bi-2-square"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M6.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306"
+            />
+            <path
+              d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"
+            />
+          </svg>
+        </div>
+        <div class="col-md p-3 text-bg-danger">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            fill="currentColor"
+            class="bi bi-3-circle"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M7.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318"
+            />
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8"
+            />
+          </svg>
+        </div>
       </div>
     </div>
-  </nav>
 
-  <div class="container text-center my-5">
-    <div class="row">
-      <div class="col-md p-3 text-bg-primary">
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-1-circle-fill" viewBox="0 0 16 16">
-          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312z"/>
-        </svg>
-      </div>
-      <div class="col-md p-3 text-bg-info">
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-2-square" viewBox="0 0 16 16">
-          <path d="M6.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306"/>
-          <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
-        </svg>
-      </div>
-      <div class="col-md p-3 text-bg-danger">
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-3-circle" viewBox="0 0 16 16">
-          <path d="M7.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318"/>
-          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8"/>
-        </svg>
-      </div>
+    <div class="container text-center">
+      <figure class="figure">
+        <img
+          src="https://picsum.photos/400/400"
+          class="img-fluid rounded"
+          alt="picsum"
+        />
+        <figcaption class="figure-caption text-start">
+          A caption for the above image.
+        </figcaption>
+      </figure>
     </div>
-  </div>
 
-  <div class="container d-flex justify-content-center">
-    <figure class="figure">
-      <img src="https://picsum.photos/400/400" class="img-fluid rounded" alt="picsum">
-      <figcaption class="figure-caption">A caption for the above image.</figcaption>
-    </figure>
-  </div>
-</div>
-
-<div class="container my-5">
-  <table class="table table-striped-columns my-3">
-    <thead>
-      <tr class="table-light">
-        <th scope="col">Name</th>
-        <th scope="col">Email</th>
-        <th scope="col">Score</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Mark</td>
-        <td>mark@email.com</td>
-        <td>10</td>
-      </tr>
-      <tr>
-        <td>Otto</td>
-        <td>otoo@email.com</td>
-        <td>20</td>
-      </tr>
-      <tr>
-        <td>John</td>
-        <td>john@email.com</td>
-        <td>30</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<div class="container my-5">
-  <form>
-    <div class="row">
-      <div class="col-8 mb-3">
-        <label for="inputEmail" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com" aria-describedby="emailHelp">
-        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-      </div>
-      <div class="col-4 mb-3">
-        <label for="inputScore" class="form-label">Score</label>
-        <select class="form-select" id="inputScore" aria-label="Default select example">
-          <option selected value="1">10</option>
-          <option value="2">20</option>
-          <option value="3">30</option>
-          <option value="3">40</option>
-          <option value="3">50</option>
-        </select>
-      </div>
+    <div class="container my-5">
+      <table class="table table-striped-columns my-3">
+        <thead>
+          <tr class="table-light">
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mark</td>
+            <td>mark@email.com</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Otto</td>
+            <td>otoo@email.com</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>John</td>
+            <td>john@email.com</td>
+            <td>30</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-</div>
-  
-</body>
+
+    <div class="container my-5">
+      <form>
+        <div class="row">
+          <div class="col-8 mb-3">
+            <label for="inputEmail" class="form-label">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmail"
+              placeholder="name@example.com"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="col-4 mb-3">
+            <label for="inputScore" class="form-label">Score</label>
+            <select
+              class="form-select"
+              id="inputScore"
+              aria-label="Default select example"
+            >
+              <option selected value="1">10</option>
+              <option value="2">20</option>
+              <option value="3">30</option>
+              <option value="3">40</option>
+              <option value="3">50</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </body>
 </html>
